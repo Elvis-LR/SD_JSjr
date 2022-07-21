@@ -1,5 +1,3 @@
-
-
 // let dineroRoberto = prompt("Cuanto dinero tienes Roberto?");
 // let dineroPedro = prompt("Cuanto dinero tienes Pedro?");
 // let dineroCofla = prompt("Cuanto dinero tienes Cofla?");
@@ -61,4 +59,5 @@
 
 let nuevoArray = ["Nombres", "Apellidos", "Edad"];
 
-document.write(nuevoArray);
+// document.write(nuevoArray[1]);
+alert(nuevoArray[1]);
