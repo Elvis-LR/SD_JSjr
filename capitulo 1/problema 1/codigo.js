@@ -142,3 +142,5 @@ if (dineroCofla >= 0.6 && dineroCofla < 1) {
 } else {
   alert("Lo siento Cofla, no te alcanza para ningun helado");
 }
+
+let nuevoArray = ["Nombres", "Apellidos", "Edad"];
