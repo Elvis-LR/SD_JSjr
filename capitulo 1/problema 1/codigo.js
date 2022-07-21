@@ -57,7 +57,19 @@
 //   alert("Lo siento Cofla, no te alcanza para ningun helado");
 // }
 
-let nuevoArray = ["Nombres", "Apellidos", "Edad"];
+// let personalComputer = {
+//   GPU: "1660 Super",
+//   CPU: "Ryzen 2700x",
+//   Memory: "Corsair 2666hz",
+// };
 
-// document.write(nuevoArray[1]);
-alert(nuevoArray[1]);
+// document.write(personalComputer["Memory"]);
+
+let numeroParaSumar = prompt("calcula si es mayor o menor que 10");
+
+if (numeroParaSumar < 10) {
+  document.write("Si, es menor que 10");
+}
+else {
+  document.write("No, es mayor que 10");
+}
