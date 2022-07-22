@@ -65,10 +65,23 @@
 
 // document.write(personalComputer["Memory"]);
 
-for (let num = 0; num < 10; num++) {
-  document.write(num)
-  if (num >= 5) {
-    break;
-    
-  }
+let array1 = ["maria", "josefina", "roberta"];
+let array2 = ["pedro", "marcelo", array1, "jose"];
+forTest:
+for (let array in array2) { 
+    if (array == 2) {
+        for (let array of array1) {
+            
+            document.write(array + "<br>");
+            
+        }
+    }
+    else { 
+        document.write(array2[array] + "<br>");
+    }
 }
+ 
+
+
+
+
