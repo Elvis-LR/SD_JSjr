@@ -56,17 +56,13 @@
 // } else {
 //   alert("Lo siento Cofla, no te alcanza para ningun helado");
 // }
-function pregunta() {
-    respuesta = prompt("como estas");
 
-    if (respuesta == "bien") {
-      alert("me alegro");
-    } else {
-      alert("que pena");
-    }
+
+const suma = (primerNum, segundoNum) => {
+    let resultado = primerNum + segundoNum;
+    return resultado
 }
 
-
-pregunta()
-
+let total = suma(50, 1);
+document.write(total)
 
