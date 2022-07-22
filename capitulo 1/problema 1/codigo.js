@@ -65,11 +65,10 @@
 
 // document.write(personalComputer["Memory"]);
 
-let numeroParaSumar = prompt("calcula si es mayor o menor que 10");
-
-if (numeroParaSumar < 10) {
-  document.write("Si, es menor que 10");
-}
-else {
-  document.write("No, es mayor que 10");
+for (let num = 0; num < 10; num++) {
+  document.write(num)
+  if (num >= 5) {
+    break;
+    
+  }
 }
