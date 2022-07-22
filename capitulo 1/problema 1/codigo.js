@@ -56,32 +56,17 @@
 // } else {
 //   alert("Lo siento Cofla, no te alcanza para ningun helado");
 // }
+function pregunta() {
+    respuesta = prompt("como estas");
 
-// let personalComputer = {
-//   GPU: "1660 Super",
-//   CPU: "Ryzen 2700x",
-//   Memory: "Corsair 2666hz",
-// };
-
-// document.write(personalComputer["Memory"]);
-
-let array1 = ["maria", "josefina", "roberta"];
-let array2 = ["pedro", "marcelo", array1, "jose"];
-forTest:
-for (let array in array2) { 
-    if (array == 2) {
-        for (let array of array1) {
-            
-            document.write(array + "<br>");
-            
-        }
-    }
-    else { 
-        document.write(array2[array] + "<br>");
+    if (respuesta == "bien") {
+      alert("me alegro");
+    } else {
+      alert("que pena");
     }
 }
- 
 
 
+pregunta()
 
 
