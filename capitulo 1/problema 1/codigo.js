@@ -58,11 +58,3 @@
 // }
 
 
-const suma = (primerNum, segundoNum) => {
-    let resultado = primerNum + segundoNum;
-    return resultado
-}
-
-let total = suma(50, 1);
-document.write(total)
-
