@@ -28,19 +28,28 @@
 // validarCliente(3);
 
 
-le free = false;
+let free = false;
 
 const clienteValido = (time) => {
 	let edad = prompt("que edad tienes");
 	if (edad >= 18) {
 		if (time >= 2 && time < 7 && free == false) {
-			alert("puedes pasar gratis")
+			alert("puedes pasar gratis");
+			free = true;
 		}
+		else {
+			alert("Puedes pasar pero debes pagar");
+		 }
+
 
 	}
 	else { 
-		alert("eres menor de edad y no puedes pasar")
+		alert("eres menor de edad y no puedes pasar");
 	}
 
 		
-	}
+}
+clienteValido(1);
+clienteValido(2);
+clienteValido(2.5);
+clienteValido(3);
