@@ -42,4 +42,4 @@ const prueba = positivo => {
     }
 }
 
-prueba()
+prueba('1')
