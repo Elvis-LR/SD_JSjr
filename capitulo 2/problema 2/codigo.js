@@ -32,3 +32,14 @@
 // 	}
 // 	document.write(resultado)
 // }
+
+const prueba = positivo => {
+    if (positivo == true) {
+        document.write('realmente es positivo')
+    }
+    else {
+        document.write('no es positivo nada')
+    }
+}
+
+prueba()
