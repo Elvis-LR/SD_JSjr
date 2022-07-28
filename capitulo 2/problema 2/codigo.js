@@ -33,13 +33,9 @@
 // 	document.write(resultado)
 // }
 
-const prueba = positivo => {
-    if (positivo == true) {
-        document.write('realmente es positivo')
-    }
-    else {
-        document.write('no es positivo nada')
-    }
-}
+const vacationSpots = ["Bali", "Paris", "Tulum"];
 
-prueba('1')
+// Write your code below
+for (let i = 0; i < vacationSpots.length; i++) {
+  document.write("I would love to visit " + vacationSpots[i] + "<br>");
+}
