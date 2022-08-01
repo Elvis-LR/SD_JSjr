@@ -37,5 +37,14 @@ const vacationSpots = ["Bali", "Paris", "Tulum"];
 
 // Write your code below
 for (let i = 0; i < vacationSpots.length; i++) {
-  document.write("I would love to visit " + vacationSpots[i] + "<br>");
+  return  document.write("I would love to visit " + vacationSpots[i] + "<br>");
 }
+
+vacationSpots.forEach(city => {
+  return document.write(`I would love to visit ${city} <br>`)
+})
+
+vacationSpots.forEach((city) => {
+  return console.log(`I would love to visit ${city} <br>`);
+});
+
