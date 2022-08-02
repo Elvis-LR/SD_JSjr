@@ -36,9 +36,7 @@
 const vacationSpots = ["Bali", "Paris", "Tulum"];
 
 // Write your code below
-for (let i = 0; i < vacationSpots.length; i++) {
-  return  document.write("I would love to visit " + vacationSpots[i] + "<br>");
-}
+
 
 vacationSpots.forEach(city => {
   return document.write(`I would love to visit ${city} <br>`)
