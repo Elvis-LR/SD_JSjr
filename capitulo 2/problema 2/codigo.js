@@ -38,9 +38,6 @@ const vacationSpots = ["Bali", "Paris", "Tulum"];
 // Write your code below
 
 
-vacationSpots.forEach(city => {
-  return document.write(`I would love to visit ${city} <br>`)
-})
 
 
 
