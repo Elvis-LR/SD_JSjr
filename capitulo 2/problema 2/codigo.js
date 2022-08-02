@@ -42,7 +42,5 @@ vacationSpots.forEach(city => {
   return document.write(`I would love to visit ${city} <br>`)
 })
 
-vacationSpots.forEach((city) => {
-  return console.log(`I would love to visit ${city} <br>`);
-});
+
 
