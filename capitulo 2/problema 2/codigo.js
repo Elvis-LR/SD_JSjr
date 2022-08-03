@@ -43,5 +43,5 @@ let sitios = {
     'santo domingo': 'malecon'
 }
 
-
+document.write(sitios['bani', 'santo domingo'])
 
