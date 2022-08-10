@@ -32,6 +32,7 @@ alumnosTotales[i] = [prompt("Nombre del alumno " + (i+1)),0];
 // 	}
 // 	document.write(resultado)
 // }
+     let shitTime = "modern girls and old fashioned gentleman"
 
 
 
